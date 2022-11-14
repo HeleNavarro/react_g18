@@ -1,22 +1,28 @@
-import logo from './logo.svg';
+import foto from './foto.svg'
+import Button from './Button';
+import { TextField} from '@mui/material';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={foto} className="App-logo" alt="logo"/>
         <p>
           HELENA NAVARRO
         </p>
+        <Button/>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        className="App-link"
+        href="http://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
         >
           Learn React
         </a>
+        
+      <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+      
       </header>
     </div>
   );
